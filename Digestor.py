@@ -14,7 +14,7 @@ pio.renderers.default = "notebook_connected"   # funciona bem no VSCode Interact
 # 1) Leitura do arquivo
 # =========================================================
 # Se estiver no Jupyter/VSCode Interactive, use o diretório atual
-try:
+try: 
     pasta = Path(__file__).parent
 except NameError:
     pasta = Path.cwd()   # Jupyter/Interactive não tem __file__
