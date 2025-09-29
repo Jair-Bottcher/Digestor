@@ -6,4 +6,4 @@ numpy
 scipy
 openpyxl
 plotly
-kaleido
+kaleido  
