@@ -1,6 +1,9 @@
 fastapi
-uvicorn
-pydantic
-numpy
+uvicorn[standard]
+gunicorn
 pandas
+numpy
 scipy
+openpyxl
+plotly
+kaleido
